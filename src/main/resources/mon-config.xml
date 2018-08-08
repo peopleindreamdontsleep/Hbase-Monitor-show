@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <property>
+    <name>hbase.jmx.urls</name>
+    <value>http://node2:16010/jmx http://node2:16030/jmx http://node3:16030/jmx</value>
+  </property>
+</configuration>

@@ -1,0 +1,684 @@
+机器[http://node2:16010/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:614
+JVM Metrics GC.GcCount:104
+JVM Metrics GC.MemHeapUsedM:100.21491
+JVM Metrics GC.MemNonHeapUsedM:68.777504
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:23
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:15
+JVM Metrics Thread.ThreadsWaiting:73
+RegisonServer Metrics Region.regionCount:null
+RegisonServer Metrics Region.storeCount:null
+RegisonServer Metrics Region.storeFileSize:null
+RegisonServer Metrics Region.storeFileCount:null
+RegisonServer Metrics Region.memStoreSize:null
+RegisonServer Metrics Region.staticIndexSize:null
+RegisonServer Metrics Region.hlogFileSize:null
+RegisonServer Metrics Region.hlogFileCount:null
+RegisonServer Metrics Region.flushedCellsSize:null
+RegisonServer Metrics Region.blockedRequestCount:null
+RegisonServer Metrics BlockCache.blockCacheSize:null
+RegisonServer Metrics BlockCache.blockCacheCount:null
+RegisonServer Metrics BlockCache.blockCacheFreeSize:null
+RegisonServer Metrics BlockCache.blockCacheHitCount:null
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:null
+RegisonServer Metrics BlockCache.blockCacheMissCount:null
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:null
+RegisonServer Metrics IO.totalRequestCount:null
+RegisonServer Metrics IO.readRequestCount:null
+RegisonServer Metrics IO.writeRequestCount:null
+RegisonServer Metrics IO.receivedBytes:null
+RegisonServer Metrics IO.sentBytes:null
+RegisonServer Metrics DFS.SyncTime_mean:null
+RegisonServer Metrics DFS.SyncTime_num_ops:null
+RegisonServer Metrics Compact.compactionQueueLength:null
+RegisonServer Metrics Compact.compactedCellsCount:null
+RegisonServer Metrics Compact.majorCompactedCellsCount:null
+RegisonServer Metrics Split.splitRequestCount:null
+RegisonServer Metrics Split.splitSuccessCount:null
+RegisonServer Metrics Split.splitQueueLength:null
+RegisonServer Metrics Split.SplitTime_mean:null
+RegisonServer Metrics Split.SplitTime_num_ops:null
+RegisonServer Metrics handler.numActiveHandler:null
+RegisonServer Metrics handler.numOpenConnections:null
+RegisonServer Metrics OP.Get_num_ops:null
+RegisonServer Metrics OP.Get_mean:null
+RegisonServer Metrics OP.Append_num_ops:null
+RegisonServer Metrics OP.Append_median:null
+RegisonServer Metrics OP.Delete_num_ops:null
+RegisonServer Metrics OP.Delete_mean:null
+RegisonServer Metrics OP.ScanNext_num_ops:null
+RegisonServer Metrics OP.ScanNext_mean:null
+RegisonServer Metrics OP.slowGetCount:null
+RegisonServer Metrics OP.slowAppendCount:null
+RegisonServer Metrics OP.slowPutCount:null
+RegisonServer Metrics OP.slowDeleteCount:null
+Table Metrics.storeCount:null
+Table Metrics.storeFileCount:null
+Table Metrics.memStoreSize:null
+Table Metrics.storeFileSize:null
+Table Metrics.compactionsCompletedCount:null
+Table Metrics.numBytesCompactedCount:null
+Table Metrics.numFilesCompactedCount:null
+Master Metrics Balancer.BalancerCluster_num_ops:0
+Master Metrics Balancer.BalancerCluster_min:0
+Master Metrics Balancer.BalancerCluster_max:0
+Master Metrics Balancer.BalancerCluster_mean:0.0
+Master Metrics Balancer.BalancerCluster_75th_percentile:0.0
+Master Metrics Balancer.BalancerCluster_90th_percentile:0.0
+Master Server.numRegionServers:2
+Master Server.numDeadRegionServers:0
+Master Server.clusterRequests:6166
+
+机器[http://node2:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1909
+JVM Metrics GC.GcCount:329
+JVM Metrics GC.MemHeapUsedM:177.71057
+JVM Metrics GC.MemNonHeapUsedM:88.83405
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:24
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:23
+JVM Metrics Thread.ThreadsWaiting:81
+RegisonServer Metrics Region.regionCount:28
+RegisonServer Metrics Region.storeCount:28
+RegisonServer Metrics Region.storeFileSize:160968
+RegisonServer Metrics Region.storeFileCount:12
+RegisonServer Metrics Region.memStoreSize:11648
+RegisonServer Metrics Region.staticIndexSize:1195
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:2
+RegisonServer Metrics Region.flushedCellsSize:124056
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:2670736
+RegisonServer Metrics BlockCache.blockCacheCount:16
+RegisonServer Metrics BlockCache.blockCacheFreeSize:2489375088
+RegisonServer Metrics BlockCache.blockCacheHitCount:34201
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:99.88318085670471
+RegisonServer Metrics BlockCache.blockCacheMissCount:40
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:21
+RegisonServer Metrics IO.totalRequestCount:6051
+RegisonServer Metrics IO.readRequestCount:101976
+RegisonServer Metrics IO.writeRequestCount:95
+RegisonServer Metrics IO.receivedBytes:900214
+RegisonServer Metrics IO.sentBytes:45021595
+RegisonServer Metrics DFS.SyncTime_mean:16.464285714285715
+RegisonServer Metrics DFS.SyncTime_num_ops:784
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:2688
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:3
+RegisonServer Metrics OP.Get_mean:11.333333333333334
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:1982
+RegisonServer Metrics OP.ScanNext_mean:34211.180121089805
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:28
+Table Metrics.storeFileCount:12
+Table Metrics.memStoreSize:11648
+Table Metrics.storeFileSize:160968
+Table Metrics.compactionsCompletedCount:4
+Table Metrics.numBytesCompactedCount:234967
+Table Metrics.numFilesCompactedCount:10
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+
+机器[http://node3:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1903
+JVM Metrics GC.GcCount:425
+JVM Metrics GC.MemHeapUsedM:86.64173
+JVM Metrics GC.MemNonHeapUsedM:79.9132
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:33
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:30
+JVM Metrics Thread.ThreadsWaiting:69
+RegisonServer Metrics Region.regionCount:27
+RegisonServer Metrics Region.storeCount:27
+RegisonServer Metrics Region.storeFileSize:23989
+RegisonServer Metrics Region.storeFileCount:5
+RegisonServer Metrics Region.memStoreSize:11232
+RegisonServer Metrics Region.staticIndexSize:183
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:1
+RegisonServer Metrics Region.flushedCellsSize:2536
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:1691600
+RegisonServer Metrics BlockCache.blockCacheCount:5
+RegisonServer Metrics BlockCache.blockCacheFreeSize:1643104688
+RegisonServer Metrics BlockCache.blockCacheHitCount:4
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:44.44444477558136
+RegisonServer Metrics BlockCache.blockCacheMissCount:5
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:0
+RegisonServer Metrics IO.totalRequestCount:115
+RegisonServer Metrics IO.readRequestCount:20
+RegisonServer Metrics IO.writeRequestCount:5
+RegisonServer Metrics IO.receivedBytes:20389
+RegisonServer Metrics IO.sentBytes:4325
+RegisonServer Metrics DFS.SyncTime_mean:12.197014925373134
+RegisonServer Metrics DFS.SyncTime_num_ops:335
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:0
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:2
+RegisonServer Metrics OP.Get_mean:9.5
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:27
+RegisonServer Metrics OP.ScanNext_mean:147.62962962962962
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:24
+Table Metrics.storeFileCount:5
+Table Metrics.memStoreSize:9984
+Table Metrics.storeFileSize:23989
+Table Metrics.compactionsCompletedCount:0
+Table Metrics.numBytesCompactedCount:0
+Table Metrics.numFilesCompactedCount:0
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+
+机器[http://node2:16010/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:614
+JVM Metrics GC.GcCount:104
+JVM Metrics GC.MemHeapUsedM:104.03718
+JVM Metrics GC.MemNonHeapUsedM:68.777504
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:23
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:14
+JVM Metrics Thread.ThreadsWaiting:73
+RegisonServer Metrics Region.regionCount:null
+RegisonServer Metrics Region.storeCount:null
+RegisonServer Metrics Region.storeFileSize:null
+RegisonServer Metrics Region.storeFileCount:null
+RegisonServer Metrics Region.memStoreSize:null
+RegisonServer Metrics Region.staticIndexSize:null
+RegisonServer Metrics Region.hlogFileSize:null
+RegisonServer Metrics Region.hlogFileCount:null
+RegisonServer Metrics Region.flushedCellsSize:null
+RegisonServer Metrics Region.blockedRequestCount:null
+RegisonServer Metrics BlockCache.blockCacheSize:null
+RegisonServer Metrics BlockCache.blockCacheCount:null
+RegisonServer Metrics BlockCache.blockCacheFreeSize:null
+RegisonServer Metrics BlockCache.blockCacheHitCount:null
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:null
+RegisonServer Metrics BlockCache.blockCacheMissCount:null
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:null
+RegisonServer Metrics IO.totalRequestCount:null
+RegisonServer Metrics IO.readRequestCount:null
+RegisonServer Metrics IO.writeRequestCount:null
+RegisonServer Metrics IO.receivedBytes:null
+RegisonServer Metrics IO.sentBytes:null
+RegisonServer Metrics DFS.SyncTime_mean:null
+RegisonServer Metrics DFS.SyncTime_num_ops:null
+RegisonServer Metrics Compact.compactionQueueLength:null
+RegisonServer Metrics Compact.compactedCellsCount:null
+RegisonServer Metrics Compact.majorCompactedCellsCount:null
+RegisonServer Metrics Split.splitRequestCount:null
+RegisonServer Metrics Split.splitSuccessCount:null
+RegisonServer Metrics Split.splitQueueLength:null
+RegisonServer Metrics Split.SplitTime_mean:null
+RegisonServer Metrics Split.SplitTime_num_ops:null
+RegisonServer Metrics handler.numActiveHandler:null
+RegisonServer Metrics handler.numOpenConnections:null
+RegisonServer Metrics OP.Get_num_ops:null
+RegisonServer Metrics OP.Get_mean:null
+RegisonServer Metrics OP.Append_num_ops:null
+RegisonServer Metrics OP.Append_median:null
+RegisonServer Metrics OP.Delete_num_ops:null
+RegisonServer Metrics OP.Delete_mean:null
+RegisonServer Metrics OP.ScanNext_num_ops:null
+RegisonServer Metrics OP.ScanNext_mean:null
+RegisonServer Metrics OP.slowGetCount:null
+RegisonServer Metrics OP.slowAppendCount:null
+RegisonServer Metrics OP.slowPutCount:null
+RegisonServer Metrics OP.slowDeleteCount:null
+Table Metrics.storeCount:null
+Table Metrics.storeFileCount:null
+Table Metrics.memStoreSize:null
+Table Metrics.storeFileSize:null
+Table Metrics.compactionsCompletedCount:null
+Table Metrics.numBytesCompactedCount:null
+Table Metrics.numFilesCompactedCount:null
+Master Metrics Balancer.BalancerCluster_num_ops:0
+Master Metrics Balancer.BalancerCluster_min:0
+Master Metrics Balancer.BalancerCluster_max:0
+Master Metrics Balancer.BalancerCluster_mean:0.0
+Master Metrics Balancer.BalancerCluster_75th_percentile:0.0
+Master Metrics Balancer.BalancerCluster_90th_percentile:0.0
+Master Server.numRegionServers:2
+Master Server.numDeadRegionServers:0
+Master Server.clusterRequests:6166
+
+机器[http://node2:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1913
+JVM Metrics GC.GcCount:330
+JVM Metrics GC.MemHeapUsedM:82.466225
+JVM Metrics GC.MemNonHeapUsedM:88.83405
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:24
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:22
+JVM Metrics Thread.ThreadsWaiting:81
+RegisonServer Metrics Region.regionCount:28
+RegisonServer Metrics Region.storeCount:28
+RegisonServer Metrics Region.storeFileSize:160968
+RegisonServer Metrics Region.storeFileCount:12
+RegisonServer Metrics Region.memStoreSize:11648
+RegisonServer Metrics Region.staticIndexSize:1195
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:2
+RegisonServer Metrics Region.flushedCellsSize:124056
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:2670736
+RegisonServer Metrics BlockCache.blockCacheCount:16
+RegisonServer Metrics BlockCache.blockCacheFreeSize:2489375088
+RegisonServer Metrics BlockCache.blockCacheHitCount:34201
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:99.88318085670471
+RegisonServer Metrics BlockCache.blockCacheMissCount:40
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:21
+RegisonServer Metrics IO.totalRequestCount:6051
+RegisonServer Metrics IO.readRequestCount:101976
+RegisonServer Metrics IO.writeRequestCount:95
+RegisonServer Metrics IO.receivedBytes:900214
+RegisonServer Metrics IO.sentBytes:45021595
+RegisonServer Metrics DFS.SyncTime_mean:16.464285714285715
+RegisonServer Metrics DFS.SyncTime_num_ops:784
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:2688
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:3
+RegisonServer Metrics OP.Get_mean:11.333333333333334
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:1982
+RegisonServer Metrics OP.ScanNext_mean:34211.180121089805
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:28
+Table Metrics.storeFileCount:12
+Table Metrics.memStoreSize:11648
+Table Metrics.storeFileSize:160968
+Table Metrics.compactionsCompletedCount:4
+Table Metrics.numBytesCompactedCount:234967
+Table Metrics.numFilesCompactedCount:10
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+
+机器[http://node3:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1903
+JVM Metrics GC.GcCount:425
+JVM Metrics GC.MemHeapUsedM:89.21083
+JVM Metrics GC.MemNonHeapUsedM:79.9132
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:33
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:30
+JVM Metrics Thread.ThreadsWaiting:69
+RegisonServer Metrics Region.regionCount:27
+RegisonServer Metrics Region.storeCount:27
+RegisonServer Metrics Region.storeFileSize:23989
+RegisonServer Metrics Region.storeFileCount:5
+RegisonServer Metrics Region.memStoreSize:11232
+RegisonServer Metrics Region.staticIndexSize:183
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:1
+RegisonServer Metrics Region.flushedCellsSize:2536
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:1691600
+RegisonServer Metrics BlockCache.blockCacheCount:5
+RegisonServer Metrics BlockCache.blockCacheFreeSize:1643104688
+RegisonServer Metrics BlockCache.blockCacheHitCount:4
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:44.44444477558136
+RegisonServer Metrics BlockCache.blockCacheMissCount:5
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:0
+RegisonServer Metrics IO.totalRequestCount:115
+RegisonServer Metrics IO.readRequestCount:20
+RegisonServer Metrics IO.writeRequestCount:5
+RegisonServer Metrics IO.receivedBytes:20389
+RegisonServer Metrics IO.sentBytes:4325
+RegisonServer Metrics DFS.SyncTime_mean:12.197014925373134
+RegisonServer Metrics DFS.SyncTime_num_ops:335
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:0
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:2
+RegisonServer Metrics OP.Get_mean:9.5
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:27
+RegisonServer Metrics OP.ScanNext_mean:147.62962962962962
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:24
+Table Metrics.storeFileCount:5
+Table Metrics.memStoreSize:9984
+Table Metrics.storeFileSize:23989
+Table Metrics.compactionsCompletedCount:0
+Table Metrics.numBytesCompactedCount:0
+Table Metrics.numFilesCompactedCount:0
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+
+机器[http://node2:16010/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:614
+JVM Metrics GC.GcCount:104
+JVM Metrics GC.MemHeapUsedM:105.06544
+JVM Metrics GC.MemNonHeapUsedM:68.78513
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:23
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:14
+JVM Metrics Thread.ThreadsWaiting:73
+RegisonServer Metrics Region.regionCount:null
+RegisonServer Metrics Region.storeCount:null
+RegisonServer Metrics Region.storeFileSize:null
+RegisonServer Metrics Region.storeFileCount:null
+RegisonServer Metrics Region.memStoreSize:null
+RegisonServer Metrics Region.staticIndexSize:null
+RegisonServer Metrics Region.hlogFileSize:null
+RegisonServer Metrics Region.hlogFileCount:null
+RegisonServer Metrics Region.flushedCellsSize:null
+RegisonServer Metrics Region.blockedRequestCount:null
+RegisonServer Metrics BlockCache.blockCacheSize:null
+RegisonServer Metrics BlockCache.blockCacheCount:null
+RegisonServer Metrics BlockCache.blockCacheFreeSize:null
+RegisonServer Metrics BlockCache.blockCacheHitCount:null
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:null
+RegisonServer Metrics BlockCache.blockCacheMissCount:null
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:null
+RegisonServer Metrics IO.totalRequestCount:null
+RegisonServer Metrics IO.readRequestCount:null
+RegisonServer Metrics IO.writeRequestCount:null
+RegisonServer Metrics IO.receivedBytes:null
+RegisonServer Metrics IO.sentBytes:null
+RegisonServer Metrics DFS.SyncTime_mean:null
+RegisonServer Metrics DFS.SyncTime_num_ops:null
+RegisonServer Metrics Compact.compactionQueueLength:null
+RegisonServer Metrics Compact.compactedCellsCount:null
+RegisonServer Metrics Compact.majorCompactedCellsCount:null
+RegisonServer Metrics Split.splitRequestCount:null
+RegisonServer Metrics Split.splitSuccessCount:null
+RegisonServer Metrics Split.splitQueueLength:null
+RegisonServer Metrics Split.SplitTime_mean:null
+RegisonServer Metrics Split.SplitTime_num_ops:null
+RegisonServer Metrics handler.numActiveHandler:null
+RegisonServer Metrics handler.numOpenConnections:null
+RegisonServer Metrics OP.Get_num_ops:null
+RegisonServer Metrics OP.Get_mean:null
+RegisonServer Metrics OP.Append_num_ops:null
+RegisonServer Metrics OP.Append_median:null
+RegisonServer Metrics OP.Delete_num_ops:null
+RegisonServer Metrics OP.Delete_mean:null
+RegisonServer Metrics OP.ScanNext_num_ops:null
+RegisonServer Metrics OP.ScanNext_mean:null
+RegisonServer Metrics OP.slowGetCount:null
+RegisonServer Metrics OP.slowAppendCount:null
+RegisonServer Metrics OP.slowPutCount:null
+RegisonServer Metrics OP.slowDeleteCount:null
+Table Metrics.storeCount:null
+Table Metrics.storeFileCount:null
+Table Metrics.memStoreSize:null
+Table Metrics.storeFileSize:null
+Table Metrics.compactionsCompletedCount:null
+Table Metrics.numBytesCompactedCount:null
+Table Metrics.numFilesCompactedCount:null
+Master Metrics Balancer.BalancerCluster_num_ops:0
+Master Metrics Balancer.BalancerCluster_min:0
+Master Metrics Balancer.BalancerCluster_max:0
+Master Metrics Balancer.BalancerCluster_mean:0.0
+Master Metrics Balancer.BalancerCluster_75th_percentile:0.0
+Master Metrics Balancer.BalancerCluster_90th_percentile:0.0
+Master Server.numRegionServers:2
+Master Server.numDeadRegionServers:0
+Master Server.clusterRequests:6166
+
+机器[http://node2:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1913
+JVM Metrics GC.GcCount:330
+JVM Metrics GC.MemHeapUsedM:83.84634
+JVM Metrics GC.MemNonHeapUsedM:88.83405
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:24
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:22
+JVM Metrics Thread.ThreadsWaiting:81
+RegisonServer Metrics Region.regionCount:28
+RegisonServer Metrics Region.storeCount:28
+RegisonServer Metrics Region.storeFileSize:160968
+RegisonServer Metrics Region.storeFileCount:12
+RegisonServer Metrics Region.memStoreSize:11648
+RegisonServer Metrics Region.staticIndexSize:1195
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:2
+RegisonServer Metrics Region.flushedCellsSize:124056
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:2670736
+RegisonServer Metrics BlockCache.blockCacheCount:16
+RegisonServer Metrics BlockCache.blockCacheFreeSize:2489375088
+RegisonServer Metrics BlockCache.blockCacheHitCount:34201
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:99.88318085670471
+RegisonServer Metrics BlockCache.blockCacheMissCount:40
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:21
+RegisonServer Metrics IO.totalRequestCount:6051
+RegisonServer Metrics IO.readRequestCount:101976
+RegisonServer Metrics IO.writeRequestCount:95
+RegisonServer Metrics IO.receivedBytes:900214
+RegisonServer Metrics IO.sentBytes:45021595
+RegisonServer Metrics DFS.SyncTime_mean:16.464285714285715
+RegisonServer Metrics DFS.SyncTime_num_ops:784
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:2688
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:3
+RegisonServer Metrics OP.Get_mean:11.333333333333334
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:1982
+RegisonServer Metrics OP.ScanNext_mean:34211.180121089805
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:28
+Table Metrics.storeFileCount:12
+Table Metrics.memStoreSize:11648
+Table Metrics.storeFileSize:160968
+Table Metrics.compactionsCompletedCount:4
+Table Metrics.numBytesCompactedCount:234967
+Table Metrics.numFilesCompactedCount:10
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+
+机器[http://node3:16030/jmx]的hbase指标信息如下:
+JVM Metrics LOG.logFatal:0
+JVM Metrics LOG.logError:0
+JVM Metrics GC.GcTimeMillis:1903
+JVM Metrics GC.GcCount:425
+JVM Metrics GC.MemHeapUsedM:91.72886
+JVM Metrics GC.MemNonHeapUsedM:79.9132
+JVM Metrics Thread.ThreadsBlocked:0
+JVM Metrics Thread.ThreadsNew:0
+JVM Metrics Thread.ThreadsRunnable:33
+JVM Metrics Thread.ThreadsTerminated:0
+JVM Metrics Thread.ThreadsTimedWaiting:30
+JVM Metrics Thread.ThreadsWaiting:69
+RegisonServer Metrics Region.regionCount:27
+RegisonServer Metrics Region.storeCount:27
+RegisonServer Metrics Region.storeFileSize:23989
+RegisonServer Metrics Region.storeFileCount:5
+RegisonServer Metrics Region.memStoreSize:11232
+RegisonServer Metrics Region.staticIndexSize:183
+RegisonServer Metrics Region.hlogFileSize:0
+RegisonServer Metrics Region.hlogFileCount:1
+RegisonServer Metrics Region.flushedCellsSize:2536
+RegisonServer Metrics Region.blockedRequestCount:0
+RegisonServer Metrics BlockCache.blockCacheSize:1691600
+RegisonServer Metrics BlockCache.blockCacheCount:5
+RegisonServer Metrics BlockCache.blockCacheFreeSize:1643104688
+RegisonServer Metrics BlockCache.blockCacheHitCount:4
+RegisonServer Metrics BlockCache.blockCacheCountHitPercent:44.44444477558136
+RegisonServer Metrics BlockCache.blockCacheMissCount:5
+RegisonServer Metrics BlockCache.blockCacheEvictionCount:0
+RegisonServer Metrics IO.totalRequestCount:115
+RegisonServer Metrics IO.readRequestCount:20
+RegisonServer Metrics IO.writeRequestCount:5
+RegisonServer Metrics IO.receivedBytes:20389
+RegisonServer Metrics IO.sentBytes:4325
+RegisonServer Metrics DFS.SyncTime_mean:12.197014925373134
+RegisonServer Metrics DFS.SyncTime_num_ops:335
+RegisonServer Metrics Compact.compactionQueueLength:0
+RegisonServer Metrics Compact.compactedCellsCount:0
+RegisonServer Metrics Compact.majorCompactedCellsCount:0
+RegisonServer Metrics Split.splitRequestCount:0
+RegisonServer Metrics Split.splitSuccessCount:0
+RegisonServer Metrics Split.splitQueueLength:0
+RegisonServer Metrics Split.SplitTime_mean:0.0
+RegisonServer Metrics Split.SplitTime_num_ops:0
+RegisonServer Metrics handler.numActiveHandler:0
+RegisonServer Metrics handler.numOpenConnections:0
+RegisonServer Metrics OP.Get_num_ops:2
+RegisonServer Metrics OP.Get_mean:9.5
+RegisonServer Metrics OP.Append_num_ops:0
+RegisonServer Metrics OP.Append_median:0.0
+RegisonServer Metrics OP.Delete_num_ops:0
+RegisonServer Metrics OP.Delete_mean:0.0
+RegisonServer Metrics OP.ScanNext_num_ops:27
+RegisonServer Metrics OP.ScanNext_mean:147.62962962962962
+RegisonServer Metrics OP.slowGetCount:0
+RegisonServer Metrics OP.slowAppendCount:0
+RegisonServer Metrics OP.slowPutCount:0
+RegisonServer Metrics OP.slowDeleteCount:0
+Table Metrics.storeCount:24
+Table Metrics.storeFileCount:5
+Table Metrics.memStoreSize:9984
+Table Metrics.storeFileSize:23989
+Table Metrics.compactionsCompletedCount:0
+Table Metrics.numBytesCompactedCount:0
+Table Metrics.numFilesCompactedCount:0
+Master Metrics Balancer.BalancerCluster_num_ops:null
+Master Metrics Balancer.BalancerCluster_min:null
+Master Metrics Balancer.BalancerCluster_max:null
+Master Metrics Balancer.BalancerCluster_mean:null
+Master Metrics Balancer.BalancerCluster_75th_percentile:null
+Master Metrics Balancer.BalancerCluster_90th_percentile:null
+Master Server.numRegionServers:null
+Master Server.numDeadRegionServers:null
+Master Server.clusterRequests:null
+

@@ -1,0 +1,74 @@
+beans.name[Hadoop:service=HBase,name=JvmMetrics].LogFatal	JVM Metrics LOG.logFatal
+beans.name[Hadoop:service=HBase,name=JvmMetrics].LogError	JVM Metrics LOG.logError
+beans.name[Hadoop:service=HBase,name=JvmMetrics].GcTimeMillis	JVM Metrics GC.GcTimeMillis
+beans.name[Hadoop:service=HBase,name=JvmMetrics].GcCount	JVM Metrics GC.GcCount
+beans.name[Hadoop:service=HBase,name=JvmMetrics].MemHeapUsedM	JVM Metrics GC.MemHeapUsedM
+beans.name[Hadoop:service=HBase,name=JvmMetrics].MemNonHeapUsedM	JVM Metrics GC.MemNonHeapUsedM
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsBlocked	JVM Metrics Thread.ThreadsBlocked
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsNew	JVM Metrics Thread.ThreadsNew
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsRunnable	JVM Metrics Thread.ThreadsRunnable
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsTerminated	JVM Metrics Thread.ThreadsTerminated
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsTimedWaiting	JVM Metrics Thread.ThreadsTimedWaiting
+beans.name[Hadoop:service=HBase,name=JvmMetrics].ThreadsWaiting	JVM Metrics Thread.ThreadsWaiting
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].regionCount	RegisonServer Metrics Region.regionCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].storeCount	RegisonServer Metrics Region.storeCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].storeFileSize	RegisonServer Metrics Region.storeFileSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].storeFileCount	RegisonServer Metrics Region.storeFileCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].memStoreSize	RegisonServer Metrics Region.memStoreSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].staticIndexSize	RegisonServer Metrics Region.staticIndexSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].hlogFileSize	RegisonServer Metrics Region.hlogFileSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].hlogFileCount	RegisonServer Metrics Region.hlogFileCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].flushedCellsSize	RegisonServer Metrics Region.flushedCellsSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockedRequestCount	RegisonServer Metrics Region.blockedRequestCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheSize	RegisonServer Metrics BlockCache.blockCacheSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheCount	RegisonServer Metrics BlockCache.blockCacheCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheFreeSize	RegisonServer Metrics BlockCache.blockCacheFreeSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheHitCount	RegisonServer Metrics BlockCache.blockCacheHitCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheCountHitPercent	RegisonServer Metrics BlockCache.blockCacheCountHitPercent
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheMissCount	RegisonServer Metrics BlockCache.blockCacheMissCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].blockCacheEvictionCount	RegisonServer Metrics BlockCache.blockCacheEvictionCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].totalRequestCount	RegisonServer Metrics IO.totalRequestCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].readRequestCount	RegisonServer Metrics IO.readRequestCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].writeRequestCount	RegisonServer Metrics IO.writeRequestCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=IPC].receivedBytes	RegisonServer Metrics IO.receivedBytes
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=IPC].sentBytes	RegisonServer Metrics IO.sentBytes
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=WAL].SyncTime_mean	RegisonServer Metrics DFS.SyncTime_mean
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=WAL].SyncTime_num_ops	RegisonServer Metrics DFS.SyncTime_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].compactionQueueLength	RegisonServer Metrics Compact.compactionQueueLength
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].compactedCellsCount	RegisonServer Metrics Compact.compactedCellsCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].majorCompactedCellsCount	RegisonServer Metrics Compact.majorCompactedCellsCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].splitRequestCount	RegisonServer Metrics Split.splitRequestCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].splitSuccessCount	RegisonServer Metrics Split.splitSuccessCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].splitQueueLength	RegisonServer Metrics Split.splitQueueLength
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].SplitTime_mean	RegisonServer Metrics Split.SplitTime_mean
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].SplitTime_num_ops	RegisonServer Metrics Split.SplitTime_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=IPC].numActiveHandler	RegisonServer Metrics handler.numActiveHandler
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=IPC].numOpenConnections	RegisonServer Metrics handler.numOpenConnections
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Get_num_ops	RegisonServer Metrics OP.Get_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Get_mean	RegisonServer Metrics OP.Get_mean
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Append_num_ops	RegisonServer Metrics OP.Append_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Append_median	RegisonServer Metrics OP.Append_median
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Delete_num_ops	RegisonServer Metrics OP.Delete_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].Delete_mean	RegisonServer Metrics OP.Delete_mean
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].ScanNext_num_ops	RegisonServer Metrics OP.ScanNext_num_ops
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].ScanNext_mean	RegisonServer Metrics OP.ScanNext_mean
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].slowGetCount	RegisonServer Metrics OP.slowGetCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].slowAppendCount	RegisonServer Metrics OP.slowAppendCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].slowPutCount	RegisonServer Metrics OP.slowPutCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Server].slowDeleteCount	RegisonServer Metrics OP.slowDeleteCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*storeCount	Table Metrics.storeCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*storeFileCount	Table Metrics.storeFileCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*memStoreSize	Table Metrics.memStoreSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*storeFileSize	Table Metrics.storeFileSize
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*compactionsCompletedCount	Table Metrics.compactionsCompletedCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*numBytesCompactedCount	Table Metrics.numBytesCompactedCount
+beans.name[Hadoop:service=HBase,name=RegionServer,sub=Regions].[\s\S]*numFilesCompactedCount	Table Metrics.numFilesCompactedCount
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_num_ops	Master Metrics Balancer.BalancerCluster_num_ops
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_min	Master Metrics Balancer.BalancerCluster_min
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_max	Master Metrics Balancer.BalancerCluster_max
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_mean	Master Metrics Balancer.BalancerCluster_mean
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_75th_percentile	Master Metrics Balancer.BalancerCluster_75th_percentile
+beans.name[Hadoop:service=HBase,name=Master,sub=Balancer].BalancerCluster_90th_percentile	Master Metrics Balancer.BalancerCluster_90th_percentile
+beans.name[Hadoop:service=HBase,name=Master,sub=Server].numRegionServers	Master Server.numRegionServers
+beans.name[Hadoop:service=HBase,name=Master,sub=Server].numDeadRegionServers	Master Server.numDeadRegionServers
+beans.name[Hadoop:service=HBase,name=Master,sub=Server].clusterRequests	Master Server.clusterRequests
