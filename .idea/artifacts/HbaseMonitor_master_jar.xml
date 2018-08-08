@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="HbaseMonitor-master:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HbaseMonitor_master_jar</output-path>
+    <root id="root">
+      <element id="archive" name="HbaseMonitor-master.jar">
+        <element id="module-output" name="HbaseMonitor-master" />
+      </element>
+    </root>
+  </artifact>
+</component>
